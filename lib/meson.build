@@ -6,6 +6,7 @@ libnixt = library('nixt',
                   'Displacement.cpp',
                   'Name.cpp',
                   'ParentMap.cpp',
+                  'Serialize.cpp',
                   include_directories: libnixdInc,
                   dependencies: libnixtDeps,
                   install: true
